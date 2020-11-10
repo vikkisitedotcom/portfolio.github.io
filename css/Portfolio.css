@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+    background: #b30000;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.offset:before{
+    display: block;
+    content: "";
+    height: 6rem;
+}
+.navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0,0,0,0.6) !important;
+    padding: 20px 0;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    padding-left: 20px;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #3399ff;
+}
+header .carousel-inner .item{
+    height: 100vh;
+    width: 100%;
+}
+
+.banner{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+.carousel-caption{
+    margin-bottom: 120px;
+    font-family: poppins;
+    
+}
+.carousel-caption h5{
+    color: #004466;
+}
+.carousel-caption h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #004466;
+
+}
+.carousel-caption h3{
+    color: #004466;
+}
+.carousel-caption h3 span{
+    color: #cc0052;
+    margin-left: 6px;
+}
+.carousel-caption a{
+    background: #99003d;
+    padding: 8px 20px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.carousel-caption a:hover{
+    background-color: #b30000;
+}
+.carousel-control .right{
+    background-image: none;
+}
+.carousel-control .left{
+    background-image: none;
+}
+.carousel-indicators .active{
+    background-color: red;
+    border-color: red;
+}
+/*======About============*/
+#about .btn{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #3399ff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#about .btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#about .btn:hover{
+    border: 2px solid #1ebba3;
+    background: #b30000;
+    cursor: pointer;
+}
+/*==============Service=====================*/
+#service .button{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #3399ff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#service .button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#service .button:hover{
+    border: 2px solid #1ebba3;
+    background: #b30000;
+    cursor: pointer;
+}
+#service .btn:hover{
+    background: #990000;
+}
+/*=====End=About============*/
+
+/*==============newsletter=====================*/
+#subscribe{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url(dark4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#subscribe h2{
+    font-size: 40px;
+    font-weight: bold; 
+}
+#subscribe .form-control{
+    background: transparent;
+    font-size: 20px;
+}
+/*=============End=newsletter=====================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
